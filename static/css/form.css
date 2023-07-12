@@ -1,0 +1,101 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 1535px;
+}
+
+.box{
+    position: absolute;
+    top: 110px;
+    left: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 999;
+}
+
+.box label{
+    padding-top: 15px;
+    font-size: 22px;
+    color:#f2ebff;
+}
+
+.box label input{
+    background-color: rgb(33, 33, 33);
+    color:#f2ebff;
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 20px;
+    height: 20px;
+    width: 180px;
+    text-align: center;
+}
+
+.mybtn{
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(144deg,#9b30e3, #9e85d5 50%,#2c2c2c);
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    line-height: 1em;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    opacity: 0.9;
+}
+  
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+.btn{
+    position: absolute;
+    top: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index:7;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -999;
+    opacity: 0.98;
+}
+
+.headerbackgroundblur{
+    position: absolute;
+    left: 120px;
+    background-color: #1f182f;
+    height: 100%;
+    width: 76.3em;
+    filter: blur(500px);
+    z-index: 1;
+}
+
+.box label select{
+    background-color: rgb(33, 33, 33);
+    color:#f2ebff;
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 20px;
+    height: 25px;
+    width: 190px;
+    text-align: center;
+}

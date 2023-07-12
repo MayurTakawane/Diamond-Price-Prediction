@@ -1,0 +1,16 @@
+[ 2023-07-12 12:34:29,139 ] 45 root - INFO - Starting app
+[ 2023-07-12 12:34:29,139 ] 46 root - INFO - Prediction pipeline begins
+[ 2023-07-12 12:34:29,150 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-12 12:34:29,150 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-12 12:34:30,159 ] 187 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2023 12:34:30] "[35m[1mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -
+[ 2023-07-12 12:34:33,079 ] 21 root - INFO - Loading reults page
+[ 2023-07-12 12:34:33,080 ] 22 root - INFO - Gathering form data
+[ 2023-07-12 12:34:33,080 ] 35 root - INFO - Converting data to dataframe
+[ 2023-07-12 12:34:33,082 ] 37 root - INFO - prediction processing
+[ 2023-07-12 12:34:33,094 ] 21 root - INFO - New data : 
+   carat    cut color clarity  depth  table     x     y     z
+0  186.0  Ideal     D      IF   50.0   42.0  60.0  40.0  50.0
+[ 2023-07-12 12:34:33,213 ] 41 root - INFO - prediction successful returning results
+[ 2023-07-12 12:34:33,218 ] 187 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2023 12:34:33] "POST /results HTTP/1.1" 200 -
+[ 2023-07-12 12:34:33,233 ] 187 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2023 12:34:33] "[36mGET /static/css//results.css HTTP/1.1[0m" 304 -

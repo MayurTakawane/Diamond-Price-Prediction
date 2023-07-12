@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+.headerbackgroundblur{
+    position: absolute;
+    left: 120px;
+    background-color: #1f182f;
+    height: 100%;
+    width: 76.3em;
+    filter: blur(500px);
+    z-index: 1;
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -999;
+    opacity: 0.98;
+}
+
+.box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+
+.box h1{
+    color: aliceblue;
+    font-size: 5em;
+    padding: 10px;
+}
+
+.blurbox{
+    position: absolute;
+    left: 150px;
+    top: 180px;
+    background-color: #1f182f;
+    width: 50%;
+    height: 50%;
+    width: 76.3em;
+    filter: blur(200px);
+    z-index: 50;
+}
