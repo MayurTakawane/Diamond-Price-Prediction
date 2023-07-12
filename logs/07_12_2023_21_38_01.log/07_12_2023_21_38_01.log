@@ -1,0 +1,20 @@
+[ 2023-07-12 21:38:02,438 ] 45 root - INFO - Starting app
+[ 2023-07-12 21:38:02,438 ] 46 root - INFO - Prediction pipeline begins
+[ 2023-07-12 21:38:02,447 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-12 21:38:02,447 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-12 21:38:12,791 ] 11 root - INFO - Loading home page
+[ 2023-07-12 21:38:12,797 ] 187 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2023 21:38:12] "GET / HTTP/1.1" 200 -
+[ 2023-07-12 21:38:13,029 ] 187 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2023 21:38:13] "[35m[1mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -
+[ 2023-07-12 21:38:13,086 ] 187 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2023 21:38:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-12 21:38:14,704 ] 16 root - INFO - Loading form
+[ 2023-07-12 21:38:14,717 ] 187 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2023 21:38:14] "POST /predictPricePage HTTP/1.1" 200 -
+[ 2023-07-12 21:38:31,803 ] 21 root - INFO - Loading reults page
+[ 2023-07-12 21:38:31,804 ] 22 root - INFO - Gathering form data
+[ 2023-07-12 21:38:31,804 ] 35 root - INFO - Converting data to dataframe
+[ 2023-07-12 21:38:31,806 ] 37 root - INFO - prediction processing
+[ 2023-07-12 21:38:31,826 ] 21 root - INFO - New data : 
+   carat    cut color clarity  depth  table     x     y     z
+0  186.0  Ideal     D      IF   26.0   24.0  42.0  42.0  42.0
+[ 2023-07-12 21:38:31,973 ] 41 root - INFO - prediction successful returning results
+[ 2023-07-12 21:38:31,976 ] 187 werkzeug - INFO - 127.0.0.1 - - [12/Jul/2023 21:38:31] "POST /results HTTP/1.1" 200 -

@@ -1,7 +1,8 @@
+README.md
 setup.py
 src/__init__.py
 src/exception.py
-src/logging.py
+src/logger.py
 src/utils.py
 src/DiamondPricePredicion_package.egg-info/PKG-INFO
 src/DiamondPricePredicion_package.egg-info/SOURCES.txt

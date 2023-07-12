@@ -1,6 +1,6 @@
 __init__
 components
 exception
-logging
+logger
 pipeline
 utils
