@@ -1,7 +1,7 @@
 import os
 import sys
-from src.exception import customException
-from src.logger import logging
+from exception import customException
+from logger import logging
 import pickle
 from sklearn.metrics import r2_score
 

@@ -1,6 +1,6 @@
-from pipeline.prediction_pipeline import customData,predictPipeline
-from logger import logging
-from exception import customException
+from src.pipeline.prediction_pipeline import customData,predictPipeline
+from src.logger import logging
+from src.exception import customException
 from flask import Flask,render_template,request
 import numpy as np
 

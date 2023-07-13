@@ -3,11 +3,11 @@ import sys
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
-from src.logger import logging
+from logger import logging
 from exception import customException
-from src.components.data_ingestion import dataIngestion
-from src.components.data_transformation import dataTransformtion
-from src.components.model_training import modelTraining
+from components.data_ingestion import dataIngestion
+from components.data_transformation import dataTransformtion
+from components.model_training import modelTraining
 
 
 logging.info("-------Data Ingestion started-------")

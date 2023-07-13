@@ -2,9 +2,9 @@ import os
 import sys
 from sklearn.linear_model import LinearRegression,Lasso,Ridge,ElasticNet
 from dataclasses import dataclass
-from src.exception import customException
-from src.logger import logging
-from src.utils import evalute_model,save_object
+from exception import customException
+from logger import logging
+from utils import evalute_model,save_object
 
 @dataclass
 class modelTrainingConfig:

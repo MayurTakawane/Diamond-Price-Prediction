@@ -1,0 +1,23 @@
+[ 2023-07-13 13:57:41,589 ] 45 root - INFO - Starting app
+[ 2023-07-13 13:57:41,590 ] 46 root - INFO - Prediction pipeline begins
+[ 2023-07-13 13:57:41,613 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-07-13 13:57:41,613 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-07-13 13:57:51,708 ] 11 root - INFO - Loading home page
+[ 2023-07-13 13:57:51,715 ] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jul/2023 13:57:51] "GET / HTTP/1.1" 200 -
+[ 2023-07-13 13:57:52,351 ] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jul/2023 13:57:52] "GET /static/css/index.css HTTP/1.1" 200 -
+[ 2023-07-13 13:57:52,384 ] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jul/2023 13:57:52] "[35m[1mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -
+[ 2023-07-13 13:57:52,435 ] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jul/2023 13:57:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-07-13 13:57:54,772 ] 16 root - INFO - Loading form
+[ 2023-07-13 13:57:54,777 ] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jul/2023 13:57:54] "POST /predictPricePage HTTP/1.1" 200 -
+[ 2023-07-13 13:57:54,820 ] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jul/2023 13:57:54] "GET /static/css/form.css HTTP/1.1" 200 -
+[ 2023-07-13 13:58:10,808 ] 21 root - INFO - Loading reults page
+[ 2023-07-13 13:58:10,808 ] 22 root - INFO - Gathering form data
+[ 2023-07-13 13:58:10,809 ] 35 root - INFO - Converting data to dataframe
+[ 2023-07-13 13:58:10,810 ] 37 root - INFO - prediction processing
+[ 2023-07-13 13:58:10,830 ] 21 root - INFO - New data : 
+   carat   cut color clarity  depth  table     x     y     z
+0   24.0  Fair     D      I1   24.0   24.0  52.0  35.0  44.0
+[ 2023-07-13 13:58:11,148 ] 41 root - INFO - prediction successful returning results
+[ 2023-07-13 13:58:11,155 ] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jul/2023 13:58:11] "POST /results HTTP/1.1" 200 -
+[ 2023-07-13 13:58:11,205 ] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jul/2023 13:58:11] "GET /static/css//results.css HTTP/1.1" 200 -
