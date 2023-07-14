@@ -1,9 +1,9 @@
 import os
 import sys
 import pandas as pd
-from exception import customException
-from logger import logging
-from utils import load_object
+from src.exception import customException
+from src.logger import logging
+from src.utils import load_object
 from dataclasses import dataclass
 
 @dataclass

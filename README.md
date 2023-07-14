@@ -22,3 +22,17 @@ Target variable:
 
 Dataset Source Link :
 [https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv](https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv)
+
+
+
+# you can run project with the help of docker file
+
+# pull docker image if you want
+```
+docker pull mayurtakawane/diamond-price-prediction-app:latest
+```
+
+# run docker image
+```
+docker run -d -p 5000:5000 mayurtakawane/diamond-price-prediction-app:latest (code)
+```
