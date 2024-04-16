@@ -1,0 +1,27 @@
+[ 2023-10-24 20:31:54,377 ] 45 root - INFO - Starting app
+[ 2023-10-24 20:31:54,377 ] 46 root - INFO - Prediction pipeline begins
+[ 2023-10-24 20:31:54,404 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+[ 2023-10-24 20:31:54,404 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-10-24 20:32:07,554 ] 11 root - INFO - Loading home page
+[ 2023-10-24 20:32:07,567 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Oct/2023 20:32:07] "GET / HTTP/1.1" 200 -
+[ 2023-10-24 20:32:07,958 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Oct/2023 20:32:07] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+[ 2023-10-24 20:32:07,969 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Oct/2023 20:32:07] "[35m[1mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -
+[ 2023-10-24 20:32:07,973 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Oct/2023 20:32:07] "[35m[1mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -
+[ 2023-10-24 20:32:08,209 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Oct/2023 20:32:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-10-24 20:32:12,135 ] 16 root - INFO - Loading form
+[ 2023-10-24 20:32:12,147 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Oct/2023 20:32:12] "POST /predictPricePage HTTP/1.1" 200 -
+[ 2023-10-24 20:32:12,167 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Oct/2023 20:32:12] "GET /static/css/form.css HTTP/1.1" 200 -
+[ 2023-10-24 20:32:12,196 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Oct/2023 20:32:12] "[35m[1mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -
+[ 2023-10-24 20:32:30,869 ] 21 root - INFO - Loading reults page
+[ 2023-10-24 20:32:30,870 ] 22 root - INFO - Gathering form data
+[ 2023-10-24 20:32:30,870 ] 35 root - INFO - Converting data to dataframe
+[ 2023-10-24 20:32:30,873 ] 37 root - INFO - prediction processing
+[ 2023-10-24 20:32:30,896 ] 21 root - INFO - New data : 
+   carat   cut color clarity  depth  table     x     y     z
+0  186.0  Good     G     VS1   14.0   82.0  15.0  82.0  50.0
+[ 2023-10-24 20:32:31,152 ] 41 root - INFO - prediction successful returning results
+[ 2023-10-24 20:32:31,162 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Oct/2023 20:32:31] "POST /results HTTP/1.1" 200 -
+[ 2023-10-24 20:32:31,189 ] 187 werkzeug - INFO - 127.0.0.1 - - [24/Oct/2023 20:32:31] "GET /static/css//results.css HTTP/1.1" 200 -

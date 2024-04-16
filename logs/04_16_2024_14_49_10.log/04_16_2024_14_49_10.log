@@ -1,0 +1,39 @@
+[ 2024-04-16 14:49:11,597 ] 46 root - INFO - Starting app
+[ 2024-04-16 14:49:11,597 ] 47 root - INFO - Prediction pipeline begins
+[ 2024-04-16 14:49:11,611 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2024-04-16 14:49:11,611 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-04-16 14:49:47,119 ] 11 root - INFO - Loading home page
+[ 2024-04-16 14:49:47,126 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:49:47] "GET / HTTP/1.1" 200 -
+[ 2024-04-16 14:49:47,788 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:49:47] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+[ 2024-04-16 14:49:47,789 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:49:47] "[35m[1mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -
+[ 2024-04-16 14:49:51,174 ] 16 root - INFO - Loading form
+[ 2024-04-16 14:49:51,177 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:49:51] "POST /predictPricePage HTTP/1.1" 200 -
+[ 2024-04-16 14:49:51,257 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:49:51] "[36mGET /static/css/form.css HTTP/1.1[0m" 304 -
+[ 2024-04-16 14:49:51,296 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:49:51] "[35m[1mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -
+[ 2024-04-16 14:50:02,369 ] 21 root - INFO - Loading reults page
+[ 2024-04-16 14:50:02,369 ] 22 root - INFO - Gathering form data
+[ 2024-04-16 14:50:02,371 ] 35 root - INFO - Converting data to dataframe
+[ 2024-04-16 14:50:02,374 ] 37 root - INFO - prediction processing
+[ 2024-04-16 14:50:02,392 ] 21 root - INFO - New data : 
+   carat        cut color clarity  depth  table     x     y     z
+0   25.0  Very Good     F     VS1   15.0   54.0  15.0  85.0  52.0
+[ 2024-04-16 14:50:02,549 ] 42 root - INFO - prediction successful returning results
+[ 2024-04-16 14:50:02,552 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:50:02] "POST /results HTTP/1.1" 200 -
+[ 2024-04-16 14:50:02,657 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:50:02] "GET /static/css//results.css HTTP/1.1" 200 -
+[ 2024-04-16 14:50:05,692 ] 16 root - INFO - Loading form
+[ 2024-04-16 14:50:05,693 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:50:05] "POST /predictPricePage HTTP/1.1" 200 -
+[ 2024-04-16 14:50:05,779 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:50:05] "[36mGET /static/css/form.css HTTP/1.1[0m" 304 -
+[ 2024-04-16 14:50:15,061 ] 21 root - INFO - Loading reults page
+[ 2024-04-16 14:50:15,061 ] 22 root - INFO - Gathering form data
+[ 2024-04-16 14:50:15,062 ] 35 root - INFO - Converting data to dataframe
+[ 2024-04-16 14:50:15,064 ] 37 root - INFO - prediction processing
+[ 2024-04-16 14:50:15,081 ] 21 root - INFO - New data : 
+   carat        cut color clarity  depth  table     x     y     z
+0   25.0  Very Good     E     SI1   15.0   54.0  15.0  85.0  52.0
+[ 2024-04-16 14:50:15,089 ] 42 root - INFO - prediction successful returning results
+[ 2024-04-16 14:50:15,090 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:50:15] "POST /results HTTP/1.1" 200 -
+[ 2024-04-16 14:50:15,160 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:50:15] "[36mGET /static/css//results.css HTTP/1.1[0m" 304 -
+[ 2024-04-16 14:50:17,146 ] 16 root - INFO - Loading form
+[ 2024-04-16 14:50:17,147 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:50:17] "POST /predictPricePage HTTP/1.1" 200 -
+[ 2024-04-16 14:50:17,239 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 14:50:17] "[36mGET /static/css/form.css HTTP/1.1[0m" 304 -

@@ -1,0 +1,20 @@
+[ 2023-08-03 11:36:10,309 ] 45 root - INFO - Starting app
+[ 2023-08-03 11:36:10,309 ] 46 root - INFO - Prediction pipeline begins
+[ 2023-08-03 11:36:10,330 ] 113 werkzeug - INFO -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[ 2023-08-03 11:36:27,736 ] 11 root - INFO - Loading home page
+[ 2023-08-03 11:36:27,752 ] 113 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 11:36:27] "[37mGET / HTTP/1.1[0m" 200 -
+[ 2023-08-03 11:36:27,955 ] 113 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 11:36:27] "[37mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -
+[ 2023-08-03 11:36:28,005 ] 113 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 11:36:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-08-03 11:36:39,295 ] 16 root - INFO - Loading form
+[ 2023-08-03 11:36:39,299 ] 113 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 11:36:39] "[37mPOST /predictPricePage HTTP/1.1[0m" 200 -
+[ 2023-08-03 11:37:07,596 ] 21 root - INFO - Loading reults page
+[ 2023-08-03 11:37:07,597 ] 22 root - INFO - Gathering form data
+[ 2023-08-03 11:37:07,597 ] 35 root - INFO - Converting data to dataframe
+[ 2023-08-03 11:37:07,601 ] 37 root - INFO - prediction processing
+[ 2023-08-03 11:37:07,622 ] 21 root - INFO - New data : 
+   carat    cut color clarity  depth  table     x     y     z
+0   58.0  Ideal     D     VS1   24.0   24.0  42.0  42.0  44.0
+[ 2023-08-03 11:37:07,912 ] 41 root - INFO - prediction successful returning results
+[ 2023-08-03 11:37:07,916 ] 113 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 11:37:07] "[37mPOST /results HTTP/1.1[0m" 200 -
+[ 2023-08-03 11:38:21,990 ] 113 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 11:38:21] "[37mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -
+[ 2023-08-03 11:41:17,227 ] 113 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 11:41:17] "[37mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -

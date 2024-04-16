@@ -38,10 +38,11 @@ def get_results():
     pred = predictPipeline()
     results = pred.prediction(dataframe)
     results = np.round(results,decimals=2)
+    results = int(results)
     logging.info("prediction successful returning results")
     return render_template('results.html',results = results)
 
 if __name__ == '__main__':
     logging.info("Starting app")
     logging.info("Prediction pipeline begins")
-    app.run(host='0.0.0.0',port=5000)
+    app.run(host='127.0.0.1',port=5000)

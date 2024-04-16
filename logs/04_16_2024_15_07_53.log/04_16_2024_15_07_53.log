@@ -1,0 +1,9 @@
+[ 2024-04-16 15:07:55,368 ] 46 root - INFO - Starting app
+[ 2024-04-16 15:07:55,368 ] 47 root - INFO - Prediction pipeline begins
+[ 2024-04-16 15:07:55,386 ] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2024-04-16 15:07:55,386 ] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-04-16 15:08:03,915 ] 11 root - INFO - Loading home page
+[ 2024-04-16 15:08:03,921 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 15:08:03] "GET / HTTP/1.1" 200 -
+[ 2024-04-16 15:08:04,474 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 15:08:04] "GET /static/css/index.css HTTP/1.1" 200 -
+[ 2024-04-16 15:08:04,488 ] 187 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 15:08:04] "[35m[1mGET /static/css/diamondvedio.mp4 HTTP/1.1[0m" 206 -
